@@ -119,6 +119,13 @@ section.alt .card{background:var(--bg)}
 .work-item dl{display:grid;grid-template-columns:110px 1fr;gap:6px 16px;margin:20px 0 0;font-size:15.5px}
 .work-item dt{font-weight:700;color:var(--muted);text-transform:uppercase;font-size:12.5px;letter-spacing:.08em;padding-top:3px}
 .work-item dd{margin:0}
+.demo-video{display:block;width:100%;max-width:960px;height:auto;margin:0 auto;border-radius:14px;border:1px solid var(--line);background:#000}
+.demo-note{text-align:center;font-size:14px;margin:10px 0 40px}
+.g4{grid-template-columns:repeat(4,1fr)}
+.shots figure{margin:0}
+.shots img{border-radius:10px;border:1px solid var(--line);aspect-ratio:3/4;object-fit:cover;object-position:top;width:100%}
+.shots figcaption{font-size:14.5px;color:var(--muted);margin-top:10px;line-height:1.45}
+.shots figcaption b{color:var(--ink)}
 
 /* About */
 .about-grid{display:grid;grid-template-columns:1.6fr 1fr;gap:56px}
@@ -159,6 +166,7 @@ section.alt .card{background:var(--bg)}
 
 @media (max-width:900px){
   .g3,.g2,.feature,.work-item,.about-grid{grid-template-columns:1fr}
+  .g4{grid-template-columns:repeat(2,1fr)}
   .proof ul{grid-template-columns:repeat(2,1fr)}
   .feature{gap:28px}
   .work-item{gap:24px}
