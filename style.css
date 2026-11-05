@@ -127,6 +127,7 @@ section.alt .card{background:var(--bg)}
 .shots img{border-radius:10px;border:1px solid var(--line);aspect-ratio:3/4;object-fit:cover;object-position:top;width:100%}
 .shots figcaption{font-size:14.5px;color:var(--muted);margin-top:10px;line-height:1.45}
 .shots figcaption b{color:var(--ink)}
+.shots.printouts img{object-fit:contain;background:#fff}
 
 /* About */
 .about-grid{display:grid;grid-template-columns:1.6fr 1fr;gap:56px}
